@@ -1,0 +1,8 @@
+v=input()
+a=list(v)
+d=[]
+for i in a:
+    if(i not in d):
+        d.append(i)
+k=len(d)
+print(k)
